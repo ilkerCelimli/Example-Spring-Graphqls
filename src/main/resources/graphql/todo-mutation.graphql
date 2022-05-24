@@ -1,0 +1,6 @@
+mutation TodoMutation {
+    createTodo(text: "ASDASD") {
+        text
+        completed
+    }
+}

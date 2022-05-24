@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    hikari:
+      username: admin
+      password: 12345
+    url: jdbc:postgresql://localhost:10000/postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  graphql:
+    graphiql:
+      path: "/graphiqls"
+      enabled: true
+
+
